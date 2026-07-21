@@ -97,6 +97,13 @@ async function websiteSearch(query) {
 
 async function search() {
 
+    const mode = document.getElementById("searchMode").value;
+
+if (mode === "website") {
+    websiteSearch(document.getElementById("searchBox").value);
+    return;
+}
+
     let original = document.getElementById("searchBox").value;
     let results = document.getElementById("results");
 
