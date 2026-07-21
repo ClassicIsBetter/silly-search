@@ -1,50 +1,563 @@
 [
-    {
-        "name": "YouTube",
-        "url": "https://youtube.com",
-        "keywords": [
-            "youtube",
-            "video",
-            "videos",
-            "watch",
-            "music"
-        ]
-    },
-    {
-        "name": "Google",
-        "url": "https://google.com",
-        "keywords": [
-            "google",
-            "search",
-            "browser"
-        ]
-    },
-    {
-        "name": "Wikipedia",
-        "url": "https://wikipedia.org",
-        "keywords": [
-            "wiki",
-            "wikipedia",
-            "encyclopedia"
-        ]
-    },
-    {
-        "name": "Scratch",
-        "url": "https://scratch.mit.edu",
-        "keywords": [
-            "scratch",
-            "coding",
-            "programming",
-            "blocks"
-        ]
-    },
-    {
-        "name": "Reddit",
-        "url": "https://reddit.com",
-        "keywords": [
-            "reddit",
-            "forum",
-            "community"
-        ]
-    }
+  {
+    "name": "Allrecipes",
+    "url": "https://allrecipes.com",
+    "keywords": [
+      "food",
+      "recipes",
+      "cooking",
+      "meals",
+      "kitchen"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "url": "https://amazon.com",
+    "keywords": [
+      "amazon",
+      "shopping",
+      "store",
+      "buy",
+      "marketplace"
+    ]
+  },
+  {
+    "name": "BBC",
+    "url": "https://bbc.com",
+    "keywords": [
+      "bbc",
+      "news",
+      "world",
+      "uk",
+      "media"
+    ]
+  },
+  {
+    "name": "Bing",
+    "url": "https://bing.com",
+    "keywords": [
+      "bing",
+      "search",
+      "microsoft",
+      "engine",
+      "web"
+    ]
+  },
+  {
+    "name": "Canva",
+    "url": "https://canva.com",
+    "keywords": [
+      "design",
+      "graphics",
+      "presentations",
+      "editor",
+      "templates"
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "keywords": [
+      "ai",
+      "chatbot",
+      "assistant",
+      "gpt",
+      "openai"
+    ]
+  },
+  {
+    "name": "CodePen",
+    "url": "https://codepen.io",
+    "keywords": [
+      "code",
+      "html",
+      "css",
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "name": "Coursera",
+    "url": "https://coursera.org",
+    "keywords": [
+      "courses",
+      "education",
+      "learning",
+      "university",
+      "online"
+    ]
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.com",
+    "keywords": [
+      "chat",
+      "gaming",
+      "voice",
+      "community",
+      "server"
+    ]
+  },
+  {
+    "name": "Docker",
+    "url": "https://docker.com",
+    "keywords": [
+      "containers",
+      "devops",
+      "programming",
+      "deployment",
+      "images"
+    ]
+  },
+  {
+    "name": "Drive",
+    "url": "https://drive.google.com",
+    "keywords": [
+      "storage",
+      "files",
+      "cloud",
+      "backup",
+      "google"
+    ]
+  },
+  {
+    "name": "DuckDuckGo",
+    "url": "https://duckduckgo.com",
+    "keywords": [
+      "search",
+      "privacy",
+      "engine",
+      "web",
+      "browser"
+    ]
+  },
+  {
+    "name": "ESPN",
+    "url": "https://espn.com",
+    "keywords": [
+      "sports",
+      "scores",
+      "news",
+      "football",
+      "basketball"
+    ]
+  },
+  {
+    "name": "Facebook",
+    "url": "https://facebook.com",
+    "keywords": [
+      "social",
+      "friends",
+      "posts",
+      "meta",
+      "community"
+    ]
+  },
+  {
+    "name": "Figma",
+    "url": "https://figma.com",
+    "keywords": [
+      "design",
+      "ui",
+      "ux",
+      "prototype",
+      "collaboration"
+    ]
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "keywords": [
+      "git",
+      "code",
+      "programming",
+      "repositories",
+      "opensource"
+    ]
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com",
+    "keywords": [
+      "git",
+      "ci",
+      "code",
+      "devops",
+      "repositories"
+    ]
+  },
+  {
+    "name": "Gmail",
+    "url": "https://mail.google.com",
+    "keywords": [
+      "email",
+      "mail",
+      "google",
+      "inbox",
+      "messages"
+    ]
+  },
+  {
+    "name": "Google",
+    "url": "https://google.com",
+    "keywords": [
+      "google",
+      "search",
+      "engine",
+      "web",
+      "browser"
+    ]
+  },
+  {
+    "name": "Google Maps",
+    "url": "https://maps.google.com",
+    "keywords": [
+      "maps",
+      "navigation",
+      "directions",
+      "travel",
+      "gps"
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "keywords": [
+      "ai",
+      "models",
+      "machine learning",
+      "nlp",
+      "datasets"
+    ]
+  },
+  {
+    "name": "IMDb",
+    "url": "https://imdb.com",
+    "keywords": [
+      "movies",
+      "tv",
+      "ratings",
+      "actors",
+      "films"
+    ]
+  },
+  {
+    "name": "IRS",
+    "url": "https://irs.gov",
+    "keywords": [
+      "tax",
+      "government",
+      "finance",
+      "usa",
+      "forms"
+    ]
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com",
+    "keywords": [
+      "photos",
+      "social",
+      "reels",
+      "meta",
+      "stories"
+    ]
+  },
+  {
+    "name": "Khan Academy",
+    "url": "https://khanacademy.org",
+    "keywords": [
+      "education",
+      "math",
+      "science",
+      "learning",
+      "courses"
+    ]
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com",
+    "keywords": [
+      "jobs",
+      "professional",
+      "network",
+      "careers",
+      "business"
+    ]
+  },
+  {
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "keywords": [
+      "html",
+      "css",
+      "javascript",
+      "docs",
+      "web"
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "url": "https://minecraft.net",
+    "keywords": [
+      "minecraft",
+      "game",
+      "mojang",
+      "sandbox",
+      "blocks"
+    ]
+  },
+  {
+    "name": "NASA",
+    "url": "https://nasa.gov",
+    "keywords": [
+      "space",
+      "science",
+      "rockets",
+      "astronomy",
+      "research"
+    ]
+  },
+  {
+    "name": "Netflix",
+    "url": "https://netflix.com",
+    "keywords": [
+      "streaming",
+      "movies",
+      "tv",
+      "shows",
+      "video"
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "keywords": [
+      "ai",
+      "research",
+      "gpt",
+      "chatgpt",
+      "technology"
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://pinterest.com",
+    "keywords": [
+      "ideas",
+      "images",
+      "pins",
+      "design",
+      "recipes"
+    ]
+  },
+  {
+    "name": "Python",
+    "url": "https://python.org",
+    "keywords": [
+      "python",
+      "programming",
+      "language",
+      "coding",
+      "docs"
+    ]
+  },
+  {
+    "name": "Reddit",
+    "url": "https://reddit.com",
+    "keywords": [
+      "forum",
+      "community",
+      "posts",
+      "discussion",
+      "news"
+    ]
+  },
+  {
+    "name": "Roblox",
+    "url": "https://roblox.com",
+    "keywords": [
+      "games",
+      "gaming",
+      "studio",
+      "ugc",
+      "multiplayer"
+    ]
+  },
+  {
+    "name": "Scratch",
+    "url": "https://scratch.mit.edu",
+    "keywords": [
+      "scratch",
+      "coding",
+      "blocks",
+      "education",
+      "programming"
+    ]
+  },
+  {
+    "name": "Spotify",
+    "url": "https://spotify.com",
+    "keywords": [
+      "music",
+      "songs",
+      "streaming",
+      "playlists",
+      "audio"
+    ]
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "keywords": [
+      "programming",
+      "questions",
+      "answers",
+      "code",
+      "developers"
+    ]
+  },
+  {
+    "name": "Steam",
+    "url": "https://store.steampowered.com",
+    "keywords": [
+      "games",
+      "pc",
+      "store",
+      "gaming",
+      "valve"
+    ]
+  },
+  {
+    "name": "Tripadvisor",
+    "url": "https://tripadvisor.com",
+    "keywords": [
+      "travel",
+      "hotels",
+      "restaurants",
+      "reviews",
+      "vacation"
+    ]
+  },
+  {
+    "name": "Twitch",
+    "url": "https://twitch.tv",
+    "keywords": [
+      "streaming",
+      "gaming",
+      "live",
+      "video",
+      "creators"
+    ]
+  },
+  {
+    "name": "WHO",
+    "url": "https://who.int",
+    "keywords": [
+      "health",
+      "medicine",
+      "world",
+      "disease",
+      "wellness"
+    ]
+  },
+  {
+    "name": "Weather.com",
+    "url": "https://weather.com",
+    "keywords": [
+      "weather",
+      "forecast",
+      "radar",
+      "temperature",
+      "climate"
+    ]
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://wikipedia.org",
+    "keywords": [
+      "wiki",
+      "encyclopedia",
+      "reference",
+      "articles",
+      "knowledge"
+    ]
+  },
+  {
+    "name": "Wolfram Alpha",
+    "url": "https://wolframalpha.com",
+    "keywords": [
+      "math",
+      "calculator",
+      "knowledge",
+      "science",
+      "computing"
+    ]
+  },
+  {
+    "name": "X",
+    "url": "https://x.com",
+    "keywords": [
+      "social",
+      "tweets",
+      "news",
+      "microblog",
+      "twitter"
+    ]
+  },
+  {
+    "name": "Yahoo",
+    "url": "https://yahoo.com",
+    "keywords": [
+      "search",
+      "news",
+      "mail",
+      "finance",
+      "portal"
+    ]
+  },
+  {
+    "name": "YouTube",
+    "url": "https://youtube.com",
+    "keywords": [
+      "video",
+      "videos",
+      "watch",
+      "music",
+      "streaming"
+    ]
+  },
+  {
+    "name": "Zoom",
+    "url": "https://zoom.us",
+    "keywords": [
+      "meetings",
+      "video",
+      "calls",
+      "conference",
+      "work"
+    ]
+  },
+  {
+    "name": "eBay",
+    "url": "https://ebay.com",
+    "keywords": [
+      "shopping",
+      "auctions",
+      "marketplace",
+      "buy",
+      "sell"
+    ]
+  },
+  {
+    "name": "itch.io",
+    "url": "https://itch.io",
+    "keywords": [
+      "games",
+      "indie",
+      "download",
+      "developers",
+      "gaming"
+    ]
+  }
 ]
