@@ -35,6 +35,65 @@ async function trySearch(term) {
     return null;
 }
 
+async function websiteSearch(query) {
+
+    const results = document.getElementById("results");
+
+    try {
+
+        const response = await fetch("websites.json");
+        const websites = await response.json();
+
+        const search = query.toLowerCase();
+
+        let matches = websites.filter(site => {
+
+            if (site.name.toLowerCase().includes(search))
+                return true;
+
+            return site.keywords.some(keyword =>
+                keyword.toLowerCase().includes(search) ||
+                search.includes(keyword.toLowerCase())
+            );
+
+        });
+
+        if (matches.length === 0) {
+
+            results.innerHTML = `
+                <h2>No websites found</h2>
+                <p>No websites matched "<b>${query}</b>"</p>
+            `;
+
+            return;
+
+        }
+
+        let html = "<h2>Websites</h2>";
+
+        matches.forEach(site => {
+
+            html += `
+                <div style="margin-bottom:15px;">
+                    <b>${site.name}</b><br>
+
+                    <a href="${site.url}" target="_blank">
+                        ${site.url}
+                    </a>
+                </div>
+            `;
+
+        });
+
+        results.innerHTML = html;
+
+    } catch (err) {
+
+        results.innerHTML = "Couldn't load website database.";
+
+    }
+
+}
 
 async function search() {
 
