@@ -1,5 +1,5 @@
 async function search() {
-
+//hi!
     let query = document.getElementById("searchBox").value;
     let results = document.getElementById("results");
 
