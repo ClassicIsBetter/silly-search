@@ -4,6 +4,8 @@ const addons = [
     "wikipedia",
     "animal",
     "video game",
+    "youtube",
+    "youtuber",
     "game",
     "breed",
     "food",
