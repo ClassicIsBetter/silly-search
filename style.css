@@ -1,6 +1,9 @@
 body {
     font-family: Arial;
     text-align: center;
+    background: white;
+    color: black;
+    transition: 0.3s;
 }
 
 input {
@@ -10,9 +13,28 @@ input {
 
 button {
     padding: 8px;
+    cursor: pointer;
 }
 
 #results {
     margin-top: 20px;
     text-align: left;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+body.dark-mode input {
+    background: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark-mode button {
+    background: #333;
+    color: white;
+    border: 1px solid #666;
 }
