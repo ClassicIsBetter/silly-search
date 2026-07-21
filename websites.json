@@ -1,0 +1,50 @@
+[
+    {
+        "name": "YouTube",
+        "url": "https://youtube.com",
+        "keywords": [
+            "youtube",
+            "video",
+            "videos",
+            "watch",
+            "music"
+        ]
+    },
+    {
+        "name": "Google",
+        "url": "https://google.com",
+        "keywords": [
+            "google",
+            "search",
+            "browser"
+        ]
+    },
+    {
+        "name": "Wikipedia",
+        "url": "https://wikipedia.org",
+        "keywords": [
+            "wiki",
+            "wikipedia",
+            "encyclopedia"
+        ]
+    },
+    {
+        "name": "Scratch",
+        "url": "https://scratch.mit.edu",
+        "keywords": [
+            "scratch",
+            "coding",
+            "programming",
+            "blocks"
+        ]
+    },
+    {
+        "name": "Reddit",
+        "url": "https://reddit.com",
+        "keywords": [
+            "reddit",
+            "forum",
+            "community"
+        ]
+    }
+]
