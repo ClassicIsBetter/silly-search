@@ -40,3 +40,7 @@ body.dark-mode button {
     border: 1px solid #666;
     padding: 8px;
 }
+
+#body.dark-mode searchMode {
+    background: #333
+}
