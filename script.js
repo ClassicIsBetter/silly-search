@@ -7,7 +7,6 @@ const addons = [
     "youtube",
     "youtuber",
     "game",
-    "breed",
     "food",
     "history",
     "definition",
