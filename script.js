@@ -1,4 +1,4 @@
-const WORKER_URL = "https://silly-search.dexterbooth3.workers.dev/?q=";
+const WORKER_URL = "https://silly-search.silly-search-api.workers.dev//?q=";
 
 const addons = [
     "wikipedia",
