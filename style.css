@@ -41,6 +41,9 @@ body.dark-mode button {
     padding: 8px;
 }
 
-#body.dark-mode searchMode {
-    background: #333
+body.dark-mode #searchMode {
+    background: #333;
+    color: white;
+    border: 1px solid #666;
 }
+
